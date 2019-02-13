@@ -95,7 +95,9 @@ h3 img:first-child{
 h3 img:last-child{
     margin-left:0.25rem
 }
-
+#goods{
+    padding-bottom:1rem;
+}
 .goodsList{
     display: flex;
     justify-content: center;
