@@ -1,0 +1,42 @@
+{
+    "State": true,
+    "ResultCode": 200,
+    "Message": "",
+    "Data": {
+        "shoppingcar": {
+            "id": 26,
+            "name": "苏宁小店",
+            "commoditylist": [{
+                "id": 39,
+                "barcode": "16546135465",
+                "image": "https://yinfan.oss-cn-beijing.aliyuncs.com//20180906/113e3b764b5f47a2b4c64d1892396f3d.png",
+                "name": "五粮液52度普五 500ML",
+                "specifname": "瓶",
+                "price": "1059.00",
+                "number": 11,
+                "inventory": 37,
+                "issufficient": 1
+            }, {
+                "id": 45,
+                "barcode": "4564645646222",
+                "image": "https://yinfan.oss-cn-beijing.aliyuncs.com//20180904/da4dbcc6bd96424bac67019d2f850413.png",
+                "name": "脉动青柠味1L",
+                "specifname": "4瓶/组",
+                "price": "60.00",
+                "number": 6,
+                "inventory": 5,
+                "issufficient": 0
+            }, {
+                "id": 46,
+                "barcode": "6546131351",
+                "image": "https://yinfan.oss-cn-beijing.aliyuncs.com//20180904/630e3cf8c47845efaf6b116ad37bb820.png",
+                "name": "雀巢（Nestle）醇品速溶咖啡",
+                "specifname": "盒",
+                "price": "22.00",
+                "number": 5,
+                "inventory": 112,
+                "issufficient": 1
+            }]
+        }
+    }
+}

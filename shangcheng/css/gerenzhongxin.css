@@ -1,0 +1,207 @@
+html{
+    height:200rem;
+    font-family: PingFang-SC-Regular;
+}
+body{
+    width:7.5rem;
+    margin:0 auto;
+    
+}
+h2{
+    font-weight:normal;
+    font-size:.36rem;
+    line-height:.96rem;
+    text-align:center;
+    color:#333333;
+    border-top:0.02rem solid #f7f7f7;
+    border-bottom:0.01rem solid #e5e5e5;
+    
+}
+#info{
+    overflow:hidden;
+    position: relative;
+    
+}
+#infoTop{
+    width:100%;
+    height:3.1rem;
+    position:relative;
+    overflow:hidden;
+    background:url(../static/mine/dikgrbt1@2x.png) no-repeat center;
+    background-size:7.5rem 3.1rem;
+    border-bottom:.09rem solid #f3f3f3;
+}
+#infoTop>a{
+    position: absolute;
+    width:1.4rem;
+    left:.49rem;
+    top: .71rem;
+}
+#infoM{
+    position: absolute;;
+    left:2.3rem;
+    top:1rem;
+    color:#fff;
+    
+}
+#infoM p{
+ line-height:.5rem;
+ font-size:.3rem
+}
+#infoM p:last-child{
+    font-size:.24rem;
+}
+#withDraw {
+    position: absolute;
+    right: .51rem;
+    top: .9rem;
+}
+#withDraw input{
+    width:1.2rem;
+    height:.46rem;
+    display:block;
+    color:#fff;
+    background:rgba(0,0,0,0);
+    border:.02rem solid #fff;
+    border-radius:.08rem;
+    margin-top:.15rem;
+    font-size: .24rem;
+    line-height:.46rem;
+    text-align: center;
+
+}
+#withDraw .withD{
+    letter-spacing: .2rem;
+    padding-left:.1rem;
+}
+#infoM P img{
+    padding-left:.2rem;
+}
+
+
+/* 我的订单开始 */
+#order h3{
+     font-weight:normal;
+     font-size:.3rem;
+     line-height:.7rem;
+     padding-left:.31rem;
+     border-bottom: .01rem solid #f3f3f3;
+
+}
+#order{
+    border-bottom:.13rem solid #f3f3f3;
+     /* padding-top: -1rem; */
+     width:7.5rem;
+     height:2.22rem;
+     padding-bottom:.35rem;
+}
+#order ul{
+    height:1.64rem;
+    display:flex;
+    padding-bottom:.2rem;
+    /* overflow:hidden; */
+}
+#order ul li{
+    height:1.51rem;
+    /* padding-top:-2rem; */
+    /* float:left; */
+    width:25%;
+    text-align:center;
+}
+#order ul li:last-child{
+    background:url(../static/mine/sanjx.png) no-repeat left;
+
+}
+#order ul p{
+    font-size:.24rem;
+    line-height:.2rem;
+}
+
+/* orderMain开始 */
+
+
+#orderMain li{
+    padding-top:.2rem;
+    overflow: hidden;
+    height:1rem;
+    border-bottom:0.01rem solid #e5e5e5;
+    line-height:.2rem;
+
+}
+#orderMain li span{
+    display:inline-block;
+    padding-bottom:.28rem;
+
+    font-size:.3rem;
+
+}
+#orderMain li img:first-child{
+    float:right;
+    vertical-align: middle;
+}
+#orderMain li img:last-child{
+    float:left;
+}
+#orderMain li img{
+    padding:.28rem;
+}
+
+#logOut{
+    width:7rem;
+    background:#50c6b0;
+    color:#fff;
+    font-size:.25rem;
+    border: 0.01rem solid #50c6b0;
+    border-radius:.1rem;
+    line-height:.6rem;
+    vertical-align: middle;
+    margin-top:1rem;
+    margin-left:.2rem;
+}
+
+/* 底部开始 */
+#footer {
+    width: 7.5rem;
+    margin:0 auto;
+    position: fixed;
+    left:50%;
+    bottom:0;
+    transform: translate(-50%);
+    background: #fff;
+    border-top: 0.03rem solid #f7f7f7;
+}
+
+#footer ul {
+    display: flex;
+    /* width: 7.5rem; */
+
+    justify-content: space-between;
+}
+
+#footer ul li {
+    padding-top: .13rem;
+}
+
+#footer ul li:first-child {
+    padding-left: .65rem;
+}
+
+#footer ul li:last-child {
+    padding-right: .65rem;
+}
+
+.footerB img {
+    margin-left: -0.05rem;
+    display: block;
+}
+
+.footerB img:nth-of-type(1){
+    width:.54rem;
+}
+.footerB img:nth-of-type(3){
+    width:.39rem;
+}
+.footerB p {
+    font-size: 0.22rem;
+    color: #999999;
+}

@@ -1,0 +1,152 @@
+html{
+    font-family:PingFang-SC-Regular;
+    font-weight:4rem;
+}
+body{
+    width:7.5rem;
+    margin:0 auto;
+}
+h2 {
+    
+    font-size: .36rem;
+    line-height: .96rem;
+    text-align: center;
+    color: #333333;
+    background: url(../static/myorderAll_slices/houtui.png) no-repeat .3rem;
+    border-bottom: 0.05rem solid rgba(205, 189, 189, 0.1);
+    /* box-shadow: 0rem 0.01rem 0.1rem #ccc; */
+    
+}
+#classify #header{
+    text-align:center;
+    height:.8rem;
+}
+
+#header #search {
+    padding-left:0.5rem;
+    margin:.2rem 0;
+    width: 6.5rem;
+    height: 0.6rem;
+    background: url(../static/home/sousuoanniu.png);
+    background-repeat:no-repeat;
+    background-position: 2%;
+    background-size:0.36rem;
+    border-radius: 0.4rem;
+    border: .01rem solid #ccc;
+    outline:none;
+    font-size: 0.24rem;
+    vertical-align: top;
+    
+}
+#classify #classSear #searchGoods{
+    display:flex;
+    font-size:.24rem;
+    height:.8rem;
+    border:.01rem solid #ccc;
+    margin:.2rem auto 0 auto;
+    width:7rem;
+    border-radius: 0.1rem;
+    box-shadow: 0.01rem 0.01rem 0.1rem #ccc;
+    
+}
+#classify #classSear #searchGoods li{
+
+    width:33.33%;
+    text-align:center;
+    line-height:.8rem;
+    border-right:.01rem solid #ccc;
+    position: relative;
+    margin-right:.2rem;
+    cursor: pointer;
+}
+#classify #classSear #searchGoods li:last-child{
+    border-right:none;
+}
+#classify #classSear #searchGoods li i{
+    position: absolute;
+    right:.3rem; 
+    top:.35rem;
+    width:0;
+    height:0;
+    border : .06rem solid transparent;
+}
+#classify #classSear #searchGoods li i.up{
+    border-bottom: .06rem solid #666;
+    margin-top:-.08rem;
+}
+#classify #classSear #searchGoods li i.down{
+    border-top: .06rem solid #666;
+    margin-top:.08rem;
+}
+
+/* goodsLi开始 */
+#classify #goodsLi{
+    margin-top:0 auto;
+    width:7.23rem;  
+   
+}
+#classify #goodsLi #searchResult{
+    margin-top:.2rem;
+    /* box-shadow: 0.01rem 0.01rem 0.05rem #ccc; */
+}
+
+#classify #goodsLi #searchResult .goodsL{
+    position: relative;
+    border-bottom:.01rem solid #ccc;
+
+}
+#classify #goodsLi #searchResult .goodsL .goodsImg{
+    width:2.14rem;
+    height:2.01rem;
+    margin-left:.2rem;
+    margin-top:.2rem;
+    margin-bottom:.5rem;
+
+}
+#classify #goodsLi #searchResult .goodsL .goodsInfo{
+    width:3.95rem;
+    position: absolute;
+    left:2.66rem;
+    top:.21rem;
+  
+}
+#classify #goodsLi #searchResult .goodsL .goodsImg img{
+    width:100%;
+    
+    
+
+}
+#classify #goodsLi #searchResult .goodsL .goodsInfo .title{
+    font-size:.24rem;
+    color:#666;
+
+
+}
+#classify #goodsLi #searchResult .goodsL .goodsInfo .source{
+    font-size:.2rem;
+    font-weight: 4rem; 
+    color:#FFB032;
+    width:.6rem;
+    height:.3rem;
+    line-height:.3rem;
+    text-align: center;
+    border:.01rem dotted #FFB032; 
+    /* vertical-align: top;  */
+    margin-top:.15rem;
+
+}
+#classify #goodsLi #searchResult .goodsL .goodsInfo .price{
+    font-size:.34rem;
+    color:#FD5B56;
+    height:.6rem;
+    line-height:.6rem;
+    background:url(../static/img/gouwuchejiar.png) no-repeat right;
+    background-size:.39rem .37rem;
+    margin-top:.2rem;
+    
+
+}
+
+
+
+

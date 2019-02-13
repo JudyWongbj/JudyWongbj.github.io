@@ -1,0 +1,210 @@
+body{
+    width:7.5rem;
+    margin:0 auto;
+   
+}
+*{
+    font-style: PingFang-SC-Regular; 
+    font-weight: 4rem; 
+}
+
+h2{
+    font-weight: 4rem;
+    font-size: .36rem;
+    line-height: 1.1rem;
+    text-align: center;
+    color: #333333;
+    background: url(../static/myorderAll_slices/houtui.png) no-repeat .3rem;
+    border-bottom:.1rem solid #e5e5e5;
+}
+#daifahuo #header{
+    /* border:.01rem solid green; */
+    /* overflow: hidden; */
+    width:7.5rem;
+    height:3.15rem;
+    position:relative;
+    margin-bottom:.15rem;
+    /* background: url(../static/img/dikgrbt1.png) no-repeat center; */
+}
+#daifahuo #header #order{
+    /* border:.01rem solid yellow; */
+    width:7.5rem;
+    height: 2.4rem;
+    background: url(../static/img/dikgrbt1.jpg) no-repeat center center ;
+    background-size: cover;
+}
+#header #orderSta{
+    font-size:.3rem;
+    line-height:1.3rem;
+    padding-left:.85rem;
+    font-weight:5rem;
+    background:url(../static/fhzttb_slices/fhzttb.png) no-repeat .29rem .5rem;
+}
+#header #orderInfo{
+    background:#fff;
+    border: .01rem solid #ccc;
+    border-radius: .2rem;
+    height:2rem;
+    width:6.8rem;
+    position: absolute;
+    left:.3rem;
+    top:1.12rem;
+    box-shadow: 0.01rem 0.01rem 0.1rem #ccc;
+}
+#header #orderInfo #infoD{
+    font-size:.32rem;
+    font-weight: 4rem; 
+    line-height:1rem;
+    background: url(../static/img/dizhtb.png) no-repeat;
+    background-position:.44rem .32rem;
+    background-size:.35rem .37rem;
+    padding-left: 1rem;
+    padding-top:-2rem; 
+}
+#header #orderInfo #orderName{
+    padding-right:.23rem;
+}
+#header #orderInfo #address{
+    font-size:.22rem;
+    font-weight: 4rem; 
+    width:5.04rem;
+    color:rgba(102,102,102,1);
+    line-height:.36rem;
+    margin:0rem 1rem ;
+    overflow: hidden;
+    display: -webkit-box;    
+    -webkit-box-orient: vertical;    
+    -webkit-line-clamp: 2;    
+    overflow: hidden;
+}
+
+#orderDetail #myGoods{
+    font-size:.3rem;
+    line-height:.8rem;
+    font-weight:4rem;
+    color:rgba(51,51,51,1);
+    margin:0 .31rem;
+    border-bottom:.01rem solid #ccc;
+}
+#orderDetail .orderList{
+    width:100%;
+    
+}
+#orderDetail .orderList .orderGoods{
+    position: relative;
+    margin: .2rem;
+    padding-bottom:.3rem;
+    border-bottom:.01rem solid #ccc;
+
+}
+#orderDetail .orderList .orderGoods .goodsImg{
+    width:2.08rem;
+    height:2.08rem;
+}
+#orderDetail .orderList .orderGoods .goodsImg img{
+    width:100%;
+   
+}
+#orderDetail .orderList .orderGoods .goodsS{
+    position: absolute;
+    left:2.2rem;
+    top:.15rem;
+    width:4.75rem;
+    height:2.08rem;
+
+    /* overflow: hidden; */
+}
+#orderDetail .orderList .orderGoods .goodsS .GoodsName{
+    font-size:.26rem;
+    font-weight: 4rem; 
+    line-height:.42rem;
+    width:3.75rem;
+    height:.67rem;  
+}
+#orderDetail .orderList .orderGoods .goodsS .goodsSpe{
+    /* position: absolute; */
+    padding-top:.25rem;
+    height:.35rem;
+    /* display: inline-block; */
+    
+    /* top:.7rem;
+    left:0 */
+}
+#orderDetail .orderList .orderGoods .goodsS .goodsSpe .speci{
+    /* display:inline-block; */
+    font-size:0.22rem;
+    font-weight: 4rem; 
+    color:#666;
+    line-height:.3rem;
+    vertical-align: top;
+}
+#orderDetail .orderList .orderGoods .goodsSpe .instore{
+    display:inline-block;
+    font-size:0.20rem;
+    font-weight: 4rem; 
+    color:#FFB032;
+    width:.6rem;
+    height:.3rem;
+    line-height:.3rem;
+    text-align: center;
+    border:.01rem dotted #FFB032;
+    vertical-align: top;
+    margin-left:.4rem;
+}
+#orderDetail .orderList .orderGoods .goodsS .price{
+    font-size:.36rem;
+    font-weight: 4rem; 
+    color:#FD5B56;
+    line-height:.65rem;
+    
+}
+#orderDetail .orderList .orderGoods .goodsS .goodsNum{
+    font-size:.26rem;
+    font-weight: 4rem; 
+    color:#666;
+    position: absolute;
+    top:0.5rem;
+    right:0.3rem;
+}
+
+
+/* orderTime 开始 */
+#orderTime , #orderTotal{
+    font-size:.26rem;
+    font-weight: 4rem; 
+}
+#orderTime{
+    padding-left:.32rem;
+    box-shadow: 0.01rem 0.01rem 0.05rem #ccc;
+    padding-bottom:.2rem;
+}
+#orderTime p {
+    line-height:.55rem;
+
+}
+#orderTotal{
+    height:2.42rem;
+    padding:.32rem;
+    /* border-bottom:.01rem solid #ccc; */
+    box-shadow: 0.01rem 0.01rem 0.1rem #ccc;
+}
+#orderTotal p {
+    line-height:.55rem;
+
+}
+#orderTotal .price,#orderTotal .shopP,#orderTotal .cashP,#orderTotal .actP{
+    float:right;
+}
+#orderTotal .actP{
+    font-size:.28rem;
+    font-weight: 4rem; 
+    line-height:1rem;
+
+}
+#orderTotal .actP .actPay{
+    color:#FD5B56
+}
+
+
+
+
